@@ -14,4 +14,5 @@ class worldify:
                    self.pixels[y][x] != self.pixels[y+1][x] and
                    self.pixels[y][x] != self.pixels[y-1][x]):
                     self.pixels[y][x] = self.pixels[y][x+1]
+                    
         return self.pixels
